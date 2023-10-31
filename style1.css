@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(backpick4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family:Arial;
+    padding-right: 100px;
+}
+.navbar{
+    width: 86%;
+    
+   display: flex;
+   margin: auto;
+   padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbaer .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -4%;
+
+}
+ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategrey;
+    margin-top: -3;
+    transition: 4s ease;
+}
+ul li a:hover{
+    color: rgb(230,140,59);
+
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: black;
+    padding-right: 400px;
+    padding-top: 20px;
+   
+}
+.info h3{
+     font-size: 18px;
+     letter-spacing: 1px;
+     line-height: 24px;
+     padding-right: 400px;
+     padding-top: 110px;
+     
+}
+.info span{
+    color: green;
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    margin: 26px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.info a:hover{
+    background: rgb(59,174,209);
+   
+}
+

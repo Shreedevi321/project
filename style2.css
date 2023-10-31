@@ -1,0 +1,27 @@
+*{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        background: url(backpick4.jpg);
+        height: 1000px;
+        width: 100%;
+        
+    }
+    img{
+       
+        padding-top:60px ;
+        padding-left: 550px;
+       
+        
+    
+    }
+    span{
+        color: green;
+
+    }
+    h3{
+        padding-left: 570px;
+    }
+
+

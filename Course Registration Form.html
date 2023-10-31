@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration form</title>
+</head>
+<body>
+    <form action="Message.html">
+      <h1>Course Registration form</h1>
+    
+    <br>
+    <fieldset>
+        
+        <legend>Personal Details</legend>
+        <table>
+          <tr><td><label for="name">First Name</label></td><td><input type="name" placeholder="ex:shree" required="" size="15"  pattern="[A-za-z]{5-10}"></td></tr>
+          <tr><td><label for="">Surname</label></td><td><input type="text" placeholder="ex:suresh" required="" size="15" pattern="[A-za-z]{5-7}"></td></tr>
+         <tr><td><label for="">Mobile-Number</label></td><td><input type="tel" placeholder="ex:1234056789" size="15" ></td></tr>
+         <tr><td><label for="">Email</label></td><td><input type="text" placeholder="ex:shree@123" size="15"></td></tr>
+         <tr><td><label>Password</label></td><td><input type="password" size="15" placeholder="min 5 charecters"  name="paswd"></td></tr>
+         <tr><td><label for="">Confirm Password</label></td><td><input type="password" name="cfpsw" size="15"  placeholder="min 5 charecters" ></td></tr>
+         <tr><td><label for="dob">DOB</label></td><td><input type="date" id="dob" name="dob"></td></tr>
+        </table>
+          <label for="">Gender</label>
+          <input type="radio" id="male" value="M">male
+          <input type="radio" id="female" value="F">Female
+          <input type="radio"  id="custome" value="C">Custome
+          <br><br>
+          <label for="">Select Country</label>
+          <select name="country" >
+          <option value="INDIA">INDIA</option>
+          <option value="USA">USA</option>
+          <option value="CHINA">CHINA</option>
+          <option value="RASSIA">RUSSIA</option>
+        </select>
+          <br><br>
+          <label for="">Uplode Picture</label>
+          <input type="file" name="pic">
+          <br><br>
+          <input type="Reset">
+        </fieldset>
+
+          <fieldset>
+            <legend>Course Details</legend>
+          <br>
+          <label for="">Select Course</label>
+          <select name="course" id="cou">
+            <option value="PFS">Python Full Stack</option>
+            <option value="JFS">Java Full Stack</option>
+            <option value="MS"> MYSQL</option>
+            <option value="HT">HTML</option>
+        </select>
+        <br><br>
+        <label for="">Delivary mode</label>
+        <input type="checkbox" value="on" name="mode1">ONLINE
+        <input type="checkbox" value="off" name="mode2">OFFLINE
+            <br><br>
+            <label for="">Comments</label>
+            <br>
+           <textarea name="comments"  cols="40" rows="4"></textarea>
+       </fieldset>
+       <input type="submit">
+    </form>
+</body>
+</html>
